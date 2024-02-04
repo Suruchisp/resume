@@ -1,0 +1,23 @@
+/* Add styling for left and right columns */
+.left-column,
+.right-column {
+    width: 45%; /* Adjust the width as needed */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-column {
+    margin-right: 5%; /* Adjust the margin between columns */
+}
+
+/* Add styling for the languages and hobbies lists */
+.left-column ul,
+.right-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-column li,
+.right-column li {
+    margin-bottom: 5px;
+}
